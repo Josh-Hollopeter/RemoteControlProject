@@ -6,11 +6,11 @@
 This is a remote control simulation.
 
 #### Concepts
-  loops
-  switch
+* loops
+* switch
 
 #### Technologies Used
-  java
-  while loops
+* java 
+* while loops
 
 #### Lessons Learned

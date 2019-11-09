@@ -5,25 +5,25 @@ public class RemoteControlApp {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		String remotePower = "";
+		String virtualRemote = "";
 
 		do {
 			System.out.println("To begin, turn on the remote control: Type ON to power remote");
-			remotePower = input.next();
+			virtualRemote = input.next();
 
-		} while (!remotePower.equals("ON"));
+		} while (!virtualRemote.equals("ON"));
 
 		turnON();
 
 		while (true) {
 			System.out.println("Enter a button 0 - 9 enter OFF to power down");
-			remotePower = input.next();
-			if (remotePower.equals("OFF")) {
+			virtualRemote = input.next();
+			if (virtualRemote.equals("OFF")) {
 				turnOff();
 				break;
 
 			} else {
-				switch (remotePower) {
+				switch (virtualRemote) {
 					case "0":
 					case "1":
 					case "2":

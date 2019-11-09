@@ -5,7 +5,7 @@
 #### Overview
 This is a remote control simulation.
 It's designed to allow a user to input commands
-to simulate button presses on a remote
+to simulate button presses on a remote!
 
 #### Concepts
 * while loops

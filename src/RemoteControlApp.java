@@ -37,7 +37,7 @@ public class RemoteControlApp {
 						pressButton();
 						continue;
 					default:
-						System.out.println("Comand not recognized");
+						System.out.println("Command not recognized");
 				}
 
 			}

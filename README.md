@@ -34,5 +34,5 @@ to simulate button presses on a remote
 * keep it simple
 
 #### Program Operation
-*Follow the onscreen prompts.
-*Input is case sensitive where applicable.
+* Follow the onscreen prompts.
+* Input is case sensitive where applicable.

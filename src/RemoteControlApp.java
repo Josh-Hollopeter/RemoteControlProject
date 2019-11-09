@@ -13,13 +13,12 @@ public class RemoteControlApp {
 
 		} while (!remotePower.equals("ON"));
 
+		turnON();
+
 		while (true) {
 			System.out.println("Enter a button 0 - 9 enter OFF to power down");
 			remotePower = input.next();
-			if (remotePower.equals("ON")) {
-				turnON();
-				continue;
-			} else if (remotePower.equals("OFF")) {
+			if (remotePower.equals("OFF")) {
 				turnOff();
 				break;
 
